@@ -46,7 +46,7 @@ Aplikasi **College Notes App** adalah personal dashboard untuk mahasiswa yang me
 
 ---
 
-## Screenshot Aplikasi
+## 📷 Screenshot Aplikasi
 - Tampilan Aplikasi
 ![Tampilan Aplikasi](assets/Tampilan.png)
 - Menambahkan Mata Kuliah
@@ -60,7 +60,8 @@ Aplikasi **College Notes App** adalah personal dashboard untuk mahasiswa yang me
 - Menghapus Mata Kuliah dan Menghapus Catatan
 ![Hapus Mata Kuliah dan Catatan](assets/Hapus_MK_dan_Cttan.png)
 
-##Link Aplikasi
+## 🔗 Link Aplikasi
+
 https://pemrograman-web-itera-122450072-9jm9.vercel.app/
 
 ## 👩‍💻 Dibuat Oleh
