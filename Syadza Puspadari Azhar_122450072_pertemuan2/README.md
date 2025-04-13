@@ -32,7 +32,7 @@ Aplikasi **College Notes App** adalah personal dashboard untuk mahasiswa yang me
 
 ```
 ├── index.html       # Struktur dan elemen UI
-├── style.css        # Desain dan styling (termasuk mode gelap)
+├── style.css        # Desain dan styling
 ├── app.js           # Logika aplikasi dan manajemen data
 └── README.md        # Penjelasan aplikasi, screenshot aplikasi dan fitur ES6+
 ```
