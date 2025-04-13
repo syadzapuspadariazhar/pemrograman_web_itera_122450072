@@ -47,12 +47,15 @@ Aplikasi **College Notes App** adalah personal dashboard untuk mahasiswa yang me
 ---
 
 ## Screenshot Aplikasi
-![Tampilan Aplikasi](\assets\Tampilan.png)
-![Tambah Mata Kuliah](assets\Tambah_Matkul.png)
-![Tambah Catatan](assets\Tambah_Catatan.png)
-![Edit Mata Kuliah](assets\Edit_Matkul.png)
-![Edit Catatan](assets\Edit_Catatan.png)
-![Hapus Mata Kuliah dan Catatan](assets\Hapus_MK_dan_Cttan.png)
+![Tampilan Aplikasi](assets/Tampilan.png)
+![Tambah Mata Kuliah](assets/Tambah_Matkul.png)
+![Tambah Catatan](assets/Tambah_Catatan.png)
+![Edit Mata Kuliah](assets/Edit_Matkul.png)
+![Edit Catatan](assets/Edit_Catatan.png)
+![Hapus Mata Kuliah dan Catatan](assets/Hapus_MK_dan_Cttan.png)
+
+##Link Aplikasi
+https://pemrograman-web-itera-122450072-9jm9.vercel.app/
 
 ## 👩‍💻 Dibuat Oleh
 **Syadza Puspadari Azhar - 122450072**
