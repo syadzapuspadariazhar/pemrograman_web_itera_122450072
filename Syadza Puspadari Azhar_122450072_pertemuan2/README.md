@@ -47,11 +47,17 @@ Aplikasi **College Notes App** adalah personal dashboard untuk mahasiswa yang me
 ---
 
 ## Screenshot Aplikasi
+- Tampilan Aplikasi
 ![Tampilan Aplikasi](assets/Tampilan.png)
+- Menambahkan Mata Kuliah
 ![Tambah Mata Kuliah](assets/Tambah_Matkul.png)
+- Menambahkan Catatan
 ![Tambah Catatan](assets/Tambah_Catatan.png)
+- Mengedit Mata Kuliah
 ![Edit Mata Kuliah](assets/Edit_Matkul.png)
+- Mengedit Catatan
 ![Edit Catatan](assets/Edit_Catatan.png)
+- Menghapus Mata Kuliah dan Menghapus Catatan
 ![Hapus Mata Kuliah dan Catatan](assets/Hapus_MK_dan_Cttan.png)
 
 ##Link Aplikasi
