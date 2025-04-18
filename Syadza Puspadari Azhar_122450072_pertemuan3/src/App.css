@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffe6f0;
+    color: #3d3d3d;
+    margin: 0;
+    padding: 20px;
+}
+  
+h1 {
+    color: #d63384;
+    text-align: center;
+}
+  
+.book-form,
+.book-list,
+.stats-container {
+    background-color: #fff0f6;
+    border: 2px solid #ffb3d9;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 10px auto;
+    max-width: 600px;
+    box-shadow: 0 2px 8px rgba(255, 105, 180, 0.2);
+}
+  
+.book-form input,
+.book-form select,
+.book-form button,
+.book-filter {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #d63384;
+}
+  
+.book-form button,
+.book-list button {
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+  
+.book-form button:hover,
+.book-list button:hover {
+    background-color: #e60073;
+}
+  
+.book-filter {
+    width: 100%;
+    max-width: 150px;
+    display: block;
+    margin: 0 auto 15px;
+}
+  
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+li {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ffb3d9;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+  

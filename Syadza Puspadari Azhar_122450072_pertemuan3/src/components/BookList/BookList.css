@@ -1,0 +1,26 @@
+.book-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.book-list li {
+    background-color: #fff;
+    border: 1px solid #ffb3d9;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 8px 0;
+}
+
+.book-list button {
+    margin-left: 10px;
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.book-list button:hover {
+    background-color: #e60073;
+}
