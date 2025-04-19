@@ -63,6 +63,8 @@ Setiap komponen memiliki file CSS tersendiri yang menjaga modularitas dan keterb
 ## 📌 Struktur Folder
 
 ```
+public
+├── index.html
 src/
 ├── components/
 │   ├── BookForm/
