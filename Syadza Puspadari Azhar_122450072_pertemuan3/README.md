@@ -95,7 +95,7 @@ src/
 
 ## 📸 Tampilan Aplikasi
 
-![Tampilan Aplikasi](public\home.png)
+![Tampilan Aplikasi](public/home.png)
 
 ---
 
