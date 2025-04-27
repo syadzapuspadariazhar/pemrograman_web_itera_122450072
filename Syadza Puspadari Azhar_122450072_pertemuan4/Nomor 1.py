@@ -15,14 +15,14 @@ def bmi_calculator(tinggi, berat):
   print(f"Your BMI is {bmi}")
 
 # Membuat if statement untuk menunjukkan kategori BMI
-  if (bmi < 18.5): # Ketika bmi kurang dari 18,5 maka outputnya adalah "underweight"
-    category = "underweight"
-  if (18.5 <= bmi < 25): # Ketika bmi dari 18,5 sampai 24.9 maka outputnya adalah "normal weight"
-    category = "normal weight"
-  if (25 <= bmi < 30): # Ketika bmi dari 25 sampai 29.9 maka outputnya adalah "over weight"
-    category = "over weight"
-  if (bmi >= 30): # Ketika bmi lebih dari 30 maka outputnya adalah "obese"
-    category = "obese"
+  if (bmi < 18.5):
+    category = "Berat badan kurang"
+  elif (18.5 <= bmi < 25):
+    category = "Berat badan normal"
+  elif (25 <= bmi < 30):=
+    category = "Berat badan berlebih"
+  else (bmi >= 30):
+    category = "Obesitas"
   print(f"BMI Category: {category}")
 
 # Membuat variabel tinggi untuk memasukkan tinggi badan
