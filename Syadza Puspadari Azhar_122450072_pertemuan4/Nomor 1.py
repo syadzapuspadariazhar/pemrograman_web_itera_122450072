@@ -10,7 +10,6 @@
 
 # Mendefinisikan fungsi bmi_calculator dengan parameter tinggi dan berat
 def bmi_calculator(tinggi, berat):
-  tinggi = (tinggi) / 100 # Convert ke meter
   bmi = (berat) / (tinggi * tinggi) # Membuat rumus BMI Calculator
   print(f"Your BMI is {bmi}")
 
@@ -26,7 +25,7 @@ def bmi_calculator(tinggi, berat):
   print(f"BMI Category: {category}")
 
 # Membuat variabel tinggi untuk memasukkan tinggi badan
-print("Tinggi kamu dalam cm:", end=' ')
+print("Tinggi kamu dalam m:", end=' ')
 tinggi = int(input())
 
 # Membuat variabel berat untuk memasukkan berat badan
