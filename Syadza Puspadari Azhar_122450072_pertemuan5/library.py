@@ -1,11 +1,10 @@
 from abc import ABC, abstractmethod
 
-# Abstract class sebagai dasar untuk semua item perpustakaan
 class LibraryItem(ABC):
     def __init__(self, id, title):
-        self._id = id                 # Protected: hanya bisa diakses oleh class dan subclass
+        self._id = id
         self._title = title
-        self.__is_available = True   # Private: hanya dapat diakses melalui method getter/setter
+        self.__is_available = True
 
     @property
     def is_available(self):
@@ -36,8 +35,6 @@ class LibraryItem(ABC):
     def display_info(self):
         pass  # Harus diimplementasi di subclass
 
-
-# Subclass: Book
 class Book(LibraryItem):
     def __init__(self, id, title, author):
         super().__init__(id, title)
@@ -47,8 +44,6 @@ class Book(LibraryItem):
         status = "Tersedia" if self.is_available else "Dipinjam"
         print(f"[Book] ID: {self._id}, Judul: {self._title}, Penulis: {self._author}, Status: {status}")
 
-
-# Subclass: Magazine
 class Magazine(LibraryItem):
     def __init__(self, id, title, issue_number):
         super().__init__(id, title)
@@ -58,8 +53,6 @@ class Magazine(LibraryItem):
         status = "Tersedia" if self.is_available else "Dipinjam"
         print(f"[Magazine] ID: {self._id}, Judul: {self._title}, Edisi: {self._issue_number}, Status: {status}")
 
-
-# Kelas untuk mengelola koleksi item perpustakaan
 class Library:
     def __init__(self):
         self._collection = []
@@ -91,8 +84,6 @@ class Library:
                 return
         print("Item dengan ID tersebut tidak ditemukan.")
 
-
-# Contoh penggunaan
 if __name__ == "__main__":
     # Buat instance Library
     library = Library()
@@ -106,16 +97,12 @@ if __name__ == "__main__":
     library.add_item(book2)
     library.add_item(mag1)
 
-    # Tampilkan semua item
     library.display_all_items()
 
-    # Cari berdasarkan judul
     library.search_by_title("python")
 
-    # Cari berdasarkan ID
     library.search_by_id("M001")
 
-    # Simulasi pinjam dan kembalikan item
     book1.check_out()
     book1.check_out()
     book1.return_item()
